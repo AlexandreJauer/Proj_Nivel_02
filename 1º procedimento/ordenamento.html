@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenamento</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ordenamento.css">
+</head>
+<body>
+        <h1 style="font-size: 40px; font-weight: bold;">Ordenando Valores</h1>
+            <div class = "painel">
+
+                <label for="valor">Valor</label><br>
+                <input id="valor"  type="number" name="Valor"><br>
+                <button id="button" type="button" onclick="add()" >Adicionar</button><hr>
+
+                <select name="mode" id="mode">
+                    <option value="BlubbleSort"selected>Blubble Sort</option>
+                    <option value="SelectionSort">Selection Sort</option>
+                    <option value="QuickSort">Quick Sort</option>
+                </select><br>
+
+                <button id="ord" type="button" onclick="ordenar()">Ordenar</button>
+                <button id="mist" type="button" onclick="misturar()">Misturar</button><hr>
+
+            </div>
+
+            <div>
+
+                <p>Valores Digitados: </p>
+                <ul id="lista" style="font-size: 15px;"></ul><hr>
+
+            </div>
+
+            <div>
+
+                <p>Ordenar: </p>
+                <ul id="resultado" style="font-size: 15px;"></ul><hr>
+
+            </div>
+
+            <div>
+
+                <p>Misturar: </p>
+                <ul id="result" style="font-size: 15px;"></ul><hr>
+
+            </div>
+
+
+<script src="ordenando.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.titulo {
+    padding: 16px;
+}
+#pnlCatalogo {
+    flex-wrap: wrap;
+    display: flex;}
+
+.card {
+    margin: 20px;
+    border-radius: 10px;}
+
+.card-body ul {
+    font-size: 14px;
+    line-height: 1.8;
+    list-style-position: outside;}
+
+.card-body h5{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;}

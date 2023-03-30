@@ -1,0 +1,33 @@
+body {
+    margin: 50px;
+}
+.painel {
+    margin-top: 20px;
+    font-size: 25px;
+}
+#button, #ord, #mist {
+    background: blue;
+    color: white;
+    border: blue;
+    padding: 10px;
+    font-size: 25px;    
+    border-radius: 10px;
+    cursor: pointer;
+}
+#valor {
+    margin: 15px 0 15px 0;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+#mode {
+    margin: 15px 0 15px 0;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+
+}
